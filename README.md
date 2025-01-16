@@ -30,6 +30,7 @@ Start in Production Mode:
 ```bash
 npm start
 ```
+
 Start in Development Mode:
 ```bash
 npm run start:dev
@@ -40,6 +41,7 @@ Run Unit Tests:
 ```bash
 npm run test
 ```
+
 Run End-to-End (E2E) Tests:
 ```bash
 npm run test:e2e
