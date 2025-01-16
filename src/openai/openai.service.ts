@@ -8,7 +8,7 @@ export class OpenaiService {
     constructor() {
         this.openai = new OpenAI({
             apiKey: process.env.OPENAI_API_KEY,
-        }); 
+        });
     }
 
     async generateText(prompt: string): Promise<string> {
